@@ -27,6 +27,10 @@ class SinglyLinkedList:
                 print(current.val,end=" ")
                 current = current.next
                 
+    def insert_at(self,val,position):
+        new_node = Node(val)
+        
+                
                 
 sll = SinglyLinkedList()
 sll.append(2)
